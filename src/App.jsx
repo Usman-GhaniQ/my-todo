@@ -28,7 +28,6 @@ function App() {
     if (updatedValue !== null && updatedValue.trim() !== '') {
       const updatedTodos = [...todo]; 
       updatedTodos.splice(index, 1, updatedValue); 
-
       setTodo(updatedTodos); 
     }
   };
